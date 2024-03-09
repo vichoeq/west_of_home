@@ -43,11 +43,12 @@ function set_level(i) {
     document.getElementById("look-for").innerText = look_for(i);
 
     // Load image for this level
-    document.querySelectorAll('.rc-image-tile-44').forEach(function (element) {
+    document.querySelectorAll('.tile_image').forEach(function (element) {
         element.setAttribute("src", "imgs/level_" + i + ".jpg")
     });
 }
 
+/** What are we proving not to be */
 function prove_you_are_not_a(i) {
     switch (i) {
         case 1: return "robot";
@@ -58,6 +59,7 @@ function prove_you_are_not_a(i) {
     }
 }
 
+/** What to look for in a given level */
 function look_for(i) {
     switch (i) {
         case 1: return "cats";
@@ -65,6 +67,7 @@ function look_for(i) {
     }
 }
 
+/** Returns solution for a given level  */
 function solution(i) {
     switch (i) {
         case 1: return [[0, 1, 1, 1], [0, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
@@ -72,6 +75,7 @@ function solution(i) {
     }
 }
 
+/** NEXT button behaviour */
 function next() {
     if (matrix_equals(selected, solution(current_level))) {
 
