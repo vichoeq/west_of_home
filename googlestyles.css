@@ -259,7 +259,7 @@
 
 .rc-anchor-normal {
   height: 74px;
-  width: 300px
+  /* width: 300px */
 }
 
 .rc-anchor-compact {
@@ -309,7 +309,7 @@
 
 .rc-anchor-normal .rc-anchor-content {
   height: 74px;
-  width: 206px
+  /* width: 206px */
 }
 
 .rc-anchor-compact .rc-anchor-content {
@@ -336,9 +336,9 @@
   line-height: 17px
 }
 
-.rc-anchor-normal .rc-anchor-checkbox-label {
+/* .rc-anchor-normal .rc-anchor-checkbox-label {
   width: 152px
-}
+} */
 
 .rc-anchor-compact .rc-anchor-checkbox-label {
   width: 95px
@@ -372,7 +372,7 @@
   display: inline-block;
   height: 74px;
   vertical-align: top;
-  width: 70px
+  /* width: 70px */
 }
 
 .rc-anchor-compact-footer {
@@ -413,11 +413,12 @@
 }
 
 .rc-anchor-logo-portrait {
-  margin: 10px 0 0 26px;
+  margin: 10px 10px 0 20px;
   width: 58px;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none
+  -ms-user-select: none;
+  user-select: none
 }
 
 .rc-anchor-logo-img-portrait {
@@ -432,7 +433,8 @@
 .rc-anchor-logo-landscape {
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none
+  -ms-user-select: none;
+  user-select: none
 }
 
 .rc-anchor-logo-img-landscape {
@@ -1357,7 +1359,8 @@ td:focus {
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none
+  -ms-user-select: none;
+  user-select: none
 }
 
 .rc-imageselect-response-field-error {
@@ -1711,5 +1714,3 @@ td:focus {
 .rc-response-input-field-error:focus {
   border: 1px solid #f00
 }
-
-sentinel {}

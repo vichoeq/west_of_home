@@ -1,0 +1,97 @@
+.rc-anchor {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .08);
+    -moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, .08);
+    -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .08);
+    -moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .08)
+}
+
+.rc-anchor-normal {
+    height: 74px;
+    width: 300px
+}
+
+.rc-anchor-normal .rc-anchor-content {
+    height: 74px;
+    width: 206px
+}
+
+.rc-anchor-normal .rc-anchor-checkbox-label {
+    width: 152px
+}
+
+.rc-anchor-normal .rc-anchor-pt,
+.rc-anchor-invisible .rc-anchor-pt,
+.rc-anchor-compact .rc-anchor-pt {
+    font-family: Roboto, helvetica, arial, sans-serif;
+    font-size: 8px;
+    font-weight: 400
+}
+
+.rc-anchor-normal .rc-anchor-pt {
+    margin: 2px 11px 0 0;
+    padding-right: 2px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 276px
+}
+
+.rc-anchor-normal .rc-anchor-pt.rc-anchor-over-quota-pt {
+    width: 130px
+}
+
+.rc-anchor-light {
+    background: #f9f9f9;
+    color: #000
+}
+
+.rc-anchor-light.rc-anchor-normal,
+.rc-anchor-light.rc-anchor-compact {
+    border: 1px solid #d3d3d3
+}
+
+.rc-anchor-light .rc-anchor-logo-text,
+.rc-anchor-light div a:link,
+.rc-anchor-light div a:visited {
+    color: #555
+}
+
+.rc-anchor-content {
+    display: inline-block;
+    position: relative
+}
+
+.rc-anchor-compact .rc-anchor-content {
+    height: 85px
+}
+
+.rc-anchor-normal.rc-anchor-error .rc-anchor-content {
+    margin-top: 10px
+}
+
+.rc-anchor-compact.rc-anchor-error .rc-anchor-content {
+    margin-top: 25px
+}
+
+.rc-anchor-compact .rc-anchor-content #rc-anchor-over-quota {
+    width: 148px
+}
+
+.rc-inline-block {
+    display: inline-block;
+    height: 100%
+}
+
+.rc-anchor-center-container {
+    display: table;
+    height: 100%
+}
+
+.rc-anchor-center-item {
+    display: table-cell;
+    vertical-align: middle
+}

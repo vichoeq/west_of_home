@@ -4,42 +4,40 @@
 <head>
     <title>West of Home</title>
     <link rel="stylesheet" href="googlestyles.css">
-    <!-- <link rel="stylesheet" href="image_select_style.css"> -->
+    <!-- <link rel="stylesheet" href="checkmark_styles.css"> -->
     <link rel="stylesheet" href="mystyles.css">
-    <script src="script.js"></script>
+    <script src="checkmark_script.js"></script>
 </head>
 
 <body onload="on_load()">
     <div class="center" style="width: 640px; height: 640px; ">
         <div id="rc-anchor-container" class="rc-anchor rc-anchor-normal rc-anchor-light">
-            <div id="recaptcha-accessible-status" class="rc-anchor-aria-status" aria-hidden="true">Recaptcha requires verification. </div>
-            <div class="rc-anchor-error-msg-container" style="display:none"><span class="rc-anchor-error-msg" aria-hidden="true"></span></div>
             <div class="rc-anchor-content">
                 <div class="rc-inline-block">
                     <div class="rc-anchor-center-container">
-                        <div class="rc-anchor-center-item rc-anchor-checkbox-holder"><span class="recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox" role="checkbox" aria-checked="false" id="recaptcha-anchor" tabindex="0" dir="ltr" aria-labelledby="recaptcha-anchor-label">
-                                <div class="recaptcha-checkbox-border" role="presentation"></div>
-                                <div class="recaptcha-checkbox-borderAnimation" role="presentation"></div>
-                                <div class="recaptcha-checkbox-spinner" role="presentation">
-                                    <div class="recaptcha-checkbox-spinner-overlay"></div>
+                        <div class="rc-anchor-center-item rc-anchor-checkbox-holder">
+                            <span class="recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox recaptcha-checkbox-clearOutline recaptcha-checkbox-disabled recaptcha-checkbox-loading" id="recaptcha-anchor" onclick="checkbox_click()">
+                                <div class="recaptcha-checkbox-border" id="recaptcha-checkbox-border"></div>
+                                <div class="recaptcha-checkbox-borderAnimation" id="recaptcha-checkbox-borderAnimation"></div>
+                                <div class="recaptcha-checkbox-spinner" id="recaptcha-checkbox-spinner">
+                                    <div class="recaptcha-checkbox-spinner-overlay" id="recaptcha-checkbox-spinner-overlay" style="display: block; animation-play-state: running;"></div>
                                 </div>
-                                <div class="recaptcha-checkbox-checkmark" role="presentation"></div>
-                            </span></div>
+                                <div class="recaptcha-checkbox-checkmark" id="recaptcha-checkbox-checkmark"></div>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="rc-inline-block">
                     <div class="rc-anchor-center-container">
-                        <label class="rc-anchor-center-item rc-anchor-checkbox-label" aria-hidden="true" role="presentation" id="recaptcha-anchor-label">
-                            <span aria-live="polite" aria-labelledby="recaptcha-accessible-status"></span> I'm not a robot </label>
+                        <label class="rc-anchor-center-item rc-anchor-checkbox-label" id="recaptcha-anchor-label"> I'm not a kid anymore, dad!</label>
                     </div>
                 </div>
             </div>
             <div class="rc-anchor-normal-footer">
-                <div class="rc-anchor-logo-portrait" aria-hidden="true" role="presentation">
+                <div class="rc-anchor-logo-portrait">
                     <div class="rc-anchor-logo-img rc-anchor-logo-img-portrait"></div>
                     <div class="rc-anchor-logo-text">reCAPTCHA</div>
                 </div>
-                <div class="rc-anchor-pt"><a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a><span aria-hidden="true" role="presentation"> - </span><a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a></div>
             </div>
         </div>
     </div>
