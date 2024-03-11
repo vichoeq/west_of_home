@@ -8,3 +8,7 @@
 body {
     margin: 0
 }
+
+#instructions {
+    font-family: Roboto, helvetica, arial, sans-serif;
+}
