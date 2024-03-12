@@ -25,7 +25,7 @@ var levels = [
     },
 ];
 
-var level = 0;
+var current_level = 0;
 var checkmark_clicked = false;
 
 // Animated elements
@@ -60,9 +60,9 @@ function on_load() {
 }
 
 function launch_level() {
-    document.getElementById('recaptcha-anchor-label').innerText = levels[level].not_a;
+    document.getElementById('recaptcha-anchor-label').innerText = levels[current_level].not_a;
 
-    if (level > 0) {
+    if (current_level > 0) {
         checkmark_frame = 0;
         requestAnimationFrame(checkmark_animation_in_and_out);
     }
@@ -108,7 +108,7 @@ function spinner_animation(timestamp) {
         spinner.style = "display: block; animation-play-state: paused; opacity: 0; transform: scale(1);"
 
         // TODO spawn image select
-        level++;
+        current_level++;
         launch_level();
     }
 }

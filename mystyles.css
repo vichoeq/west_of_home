@@ -1,5 +1,6 @@
-.center {
-    display: flex;
+#game-canvas {
+    position: relative;
+    display: grid;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -11,4 +12,19 @@ body {
 
 #instructions {
     font-family: Roboto, helvetica, arial, sans-serif;
+}
+
+#rc-anchor-container,
+#image-select {
+    grid-area: 1 / 1;
+    place-self: center;
+}
+
+#image-select {
+    width: 400px;
+    border: 1px solid gainsboro;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease 0s;
 }

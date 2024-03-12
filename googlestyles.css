@@ -1133,9 +1133,9 @@ body {
   background-color: #fff
 }
 
-#rc-imageselect .rc-button:focus {
+/* #rc-imageselect .rc-button:focus {
   outline: none
-}
+} */
 
 .rc-imageselect-desc {
   margin-left: -10px;
