@@ -1,3 +1,4 @@
+/* CSS */
 #game-canvas {
     position: relative;
     display: grid;
@@ -27,4 +28,17 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: opacity 1s ease 0s;
+}
+
+#rc-anchor-container {
+    width: 350px;
+}
+
+.rc-anchor-normal-footer {
+    float: right;
+}
+
+#recaptcha-anchor-label {
+    opacity: 1;
+    transition: opacity 0.75s ease 0s;
 }
