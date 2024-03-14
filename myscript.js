@@ -1,83 +1,83 @@
 const levels = [
-    // {
-    //     not_a: "a robot",
-    //     instructions: "Select all squares with",
-    //     lookfor: "traffic lights",
-    //     path: "imgs/traffic_light.jpg",
-    //     mode: "MATCH",
-    //     error: "Please select all the matching images",
-    //     solution: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]
-    // },
-    // {
-    //     not_a: "a robot",
-    //     instructions: "Select all squares with",
-    //     lookfor: "bicycles",
-    //     path: "imgs/bike.jpg",
-    //     mode: "MATCH",
-    //     error: "Please select all the matching images",
-    //     solution: [[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 0, 0], [0, 0, 0, 0]]
-    // },
-    // {
-    //     not_a: "a dog",
-    //     instructions: "Select all squares with",
-    //     lookfor: "a red ball",
-    //     path: "imgs/ball.jpg",
-    //     mode: "MATCH",
-    //     error: "Please select all the matching images",
-    //     solution: [[0, 0, 0, 0], [0, 0, 1, 1], [0, 0, 2, 2], [0, 0, 0, 0]]
-    // },
-    // {
-    //     not_a: "a cat",
-    //     instructions: "Select all squares with",
-    //     lookfor: "prey",
-    //     path: "imgs/laser.jpg",
-    //     mode: "MATCH",
-    //     error: "Please select all the matching images",
-    //     solution: [[2, 2, 0, 2], [2, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
-    // },
-    // {
-    //     not_a: "guilty of murder",
-    //     instructions: "Select the square with",
-    //     lookfor: "your alibi",
-    //     path: "imgs/alibi.jpg",
-    //     mode: "SELECT ONE",
-    //     error: "Please select one",
-    // },
-    // {
-    //     not_a: "an infectious disease",
-    //     instructions: "Select all squares with",
-    //     lookfor: "friends",
-    //     path: "imgs/white_blood_cell.jpg",
-    //     mode: "MATCH",
-    //     error: "Please select all the matching images",
-    //     solution: [[2, 2, 2, 2], [1, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
-    // },
-    // {
-    //     not_a: "the one who killed her",
-    //     instructions: "",
-    //     lookfor: "Then who did it?",
-    //     path: "imgs/jimmy.jpg",
-    //     mode: "SELECT SOME",
-    //     error: "Who did it?",
-    // },
-    // {
-    //     not_a: "an artificial intelligence",
-    //     instructions: "Select all squares with",
-    //     lookfor: "blueberry muffins",
-    //     path: "imgs/chihuahua_muffin.jpg",
-    //     mode: "MATCH",
-    //     error: "Please select all the matching images",
-    //     solution: [[0, 0, 1, 0], [0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0]]
-    // },
-    // {
-    //     not_a: "going to jail, am I?",
-    //     instructions: "Select all squares containing",
-    //     lookfor: "Jimmy's girlfriend",
-    //     path: "imgs/dumpster.jpg",
-    //     mode: "MATCH",
-    //     error: "You know where she is",
-    //     solution: [[0, 0, 0, 0], [0, 0, 2, 2], [0, 0, 1, 1], [0, 0, 1, 1]]
-    // },
+    {
+        not_a: "a robot",
+        instructions: "Select all squares with",
+        lookfor: "traffic lights",
+        path: "imgs/traffic_light.jpg",
+        mode: "MATCH",
+        error: "Please select all the matching images",
+        solution: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]
+    },
+    {
+        not_a: "a robot",
+        instructions: "Select all squares with",
+        lookfor: "bicycles",
+        path: "imgs/bike.jpg",
+        mode: "MATCH",
+        error: "Please select all the matching images",
+        solution: [[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 0, 0], [0, 0, 0, 0]]
+    },
+    {
+        not_a: "a dog",
+        instructions: "Select all squares with",
+        lookfor: "a red ball",
+        path: "imgs/ball.jpg",
+        mode: "MATCH",
+        error: "Please select all the matching images",
+        solution: [[0, 0, 0, 0], [0, 0, 1, 1], [0, 0, 2, 2], [0, 0, 0, 0]]
+    },
+    {
+        not_a: "a cat",
+        instructions: "Select all squares with",
+        lookfor: "prey",
+        path: "imgs/laser.jpg",
+        mode: "MATCH",
+        error: "Please select all the matching images",
+        solution: [[2, 2, 0, 2], [2, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
+    },
+    {
+        not_a: "guilty of murder",
+        instructions: "Select the square with",
+        lookfor: "your alibi",
+        path: "imgs/alibi.jpg",
+        mode: "SELECT ONE",
+        error: "Please select one",
+    },
+    {
+        not_a: "an infectious disease",
+        instructions: "Select all squares with",
+        lookfor: "friends",
+        path: "imgs/white_blood_cell.jpg",
+        mode: "MATCH",
+        error: "Please select all the matching images",
+        solution: [[2, 2, 2, 2], [1, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
+    },
+    {
+        not_a: "the one who killed Jenny",
+        instructions: "",
+        lookfor: "Then who did it?",
+        path: "imgs/jimmy.jpg",
+        mode: "SELECT SOME",
+        error: "Who did it?",
+    },
+    {
+        not_a: "an artificial intelligence",
+        instructions: "Select all squares with",
+        lookfor: "blueberry muffins",
+        path: "imgs/chihuahua_muffin.jpg",
+        mode: "MATCH",
+        error: "Please select all the matching images",
+        solution: [[0, 0, 1, 0], [0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0]]
+    },
+    {
+        not_a: "going to jail, am I?",
+        instructions: "Select all squares containing",
+        lookfor: "Jenny",
+        path: "imgs/dumpster.jpg",
+        mode: "MATCH",
+        error: "You know where she is",
+        solution: [[0, 0, 0, 0], [0, 0, 2, 2], [0, 0, 1, 1], [0, 0, 1, 1]]
+    },
     {
         not_a: "a robot",
         instructions: "Select all squares with",
@@ -217,11 +217,18 @@ function player_move() {
         game_back.classList.add('hidden');
         player_character.classList.add('hidden');
         end_screen.classList.remove('hidden');
+        requestAnimationFrame(credits_roll);
     }
     else {
         requestAnimationFrame(player_move);
     }
+}
 
+var credits_position = 0;
+function credits_roll() {
+    end_screen.style = "background-position: 0px " + (credits_position--) + "px;";
+    if (credits_position == -1895) return;
+    requestAnimationFrame(credits_roll);
 }
 
 function launch_level() {
