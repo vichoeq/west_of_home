@@ -22,7 +22,8 @@ Used reCAPTCHA generated HTML and CSS under fair use
 |title                            |author              |URL                                                                                      |license              |modifications               |
 |---------------------------------|--------------------|-----------------------------------------------------------------------------------------|---------------------|----------------------------|
 |untitled                         | Vlad Fonsark       | https://www.pexels.com/photo/tram-riding-along-wet-city-street-near-modern-cars-4993460/| Pexels License      | Cropped and resized        |
-|untitled                         | Dom J              | https://www.pexels.com/photo/vehicle-between-buildings-308374/                          | Pexels License      |  Cropped and resized       |
+|untitled                         | Dom J              | https://www.pexels.com/photo/vehicle-between-buildings-308374/                          | Pexels License      | Cropped and resized        |
+|untitled                         | Pixabay            | https://www.pexels.com/photo/traffic-lights-46287/                                      | Pexels License      | Cropped and resized        |
 |untitled                         | ABrazzeal          | https://www.shutterstock.com/image-photo/bright-red-dog-ball-toy-green-1371550049       | Shutterstock License| Cropped and resized        |
 |Happy neutrophil.jpg             | Markgirton         | https://commons.wikimedia.org/wiki/File:Happy_neutrophil.jpg                            | CC BY 4.0           | Rotated cropped and resized|
 |Dumpster                         | Daniel Lobo        | https://www.flickr.com/photos/daquellamanera/5224889286                                 | CC BY 2.0           | Cropped and resized        |
@@ -43,8 +44,11 @@ Used reCAPTCHA generated HTML and CSS under fair use
 |Miss Mess                        | Katey              | https://www.flickr.com/photos/onegoodbumblebee/1434026877                               | CC BY-NC-SA 2.0     | Cropped and resized        |
 |Are you Crying?!                 | Mohammadali F.     | https://www.flickr.com/photos/mfakheri/2225521066                                       | CC BY-NC-SA 2.0     | Cropped and resized        |
 |#oreo #chihuahua #pet            | oteyen             | https://www.flickr.com/photos/yenwithphotos/6861165033                                  | CC BY-NC-SA 2.0     | Cropped and resized        |
+|Rain                             |AlexanderLexa       | https://www.flickr.com/photos/82601786@N03/37488401656                                  | CC BY-NC-SA 2.0     | Edited cropped and resized |
 
 
 ## Special thanks
 
 Toño & Gabu 💜
+
+Saz

@@ -3,7 +3,7 @@ My submission to the 2024 Acerola Game Jam
 
 # Synopsis
 
-Join our protagonist Belmuth on an epic journey that will take him far from home, to the forbidden lands of the west.
+Its 11PM and Jenny hasn't come home yet. I hope she's ok. She told me she was worried about this guy Jimmy from her dorm... but he hasn't done anything yet so cops are not taking it seriously...
 
 # Controls
 
