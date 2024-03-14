@@ -29,7 +29,7 @@
                 </div>
                 <div class="rc-inline-block">
                     <div class="rc-anchor-center-container">
-                        <label class="rc-anchor-center-item rc-anchor-checkbox-label">I'm not a&nbsp;</label>
+                        <label class="rc-anchor-center-item rc-anchor-checkbox-label">I'm not&nbsp;</label>
                         <label class="rc-anchor-center-item rc-anchor-checkbox-label" id="recaptcha-anchor-label">default</label>
                     </div>
                 </div>
@@ -46,7 +46,9 @@
                 <div class="rc-imageselect-payload">
                     <div class="rc-imageselect-instructions">
                         <div class="rc-imageselect-desc-wrapper">
-                            <div class="rc-imageselect-desc-no-canonical" style="width: 352px; font-size: 12px;"> Select all squares with <strong id="look-for" style="font-size: 28px;">cats</strong>
+                            <div class="rc-imageselect-desc-no-canonical" style="width: 352px; font-size: 12px;">
+                                <div id="instructions"> Select all squares with </div> <strong id="look-for" style="font-size: 28px;">cats</strong>
+                                <span class="rc-imageselect-carousel-instructions" style="font-size: 14px; opacity: 0.5;">If there are none, click skip</span>
                             </div>
                         </div>
                     </div>
@@ -192,14 +194,14 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="rc-imageselect-error-select-more" style="display:none">Please select all matching images.</div>
+                    <div id="rc-imageselect-error-select-more" class="rc-imageselect-error-select-more">PLACEHOLDER</div>
                 </div>
                 <div class="rc-footer">
                     <div class="rc-separator"></div>
                     <div class="rc-controls">
                         <div class="primary-controls">
                             <div class="verify-button-holder">
-                                <button class="rc-button-default goog-inline-block" title value id="recaptcha-verify-button" tabindex="0" onclick="next()">Next</button>
+                                <button class="rc-button-default goog-inline-block" id="recaptcha-verify-button" tabindex="0" onclick="next()">PLACEHOLDER</button>
                             </div>
                         </div>
                     </div>
