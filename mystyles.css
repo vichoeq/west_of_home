@@ -15,6 +15,10 @@ body {
     font-family: Roboto, helvetica, arial, sans-serif;
 }
 
+#main-menu,
+#game-back,
+#player-character,
+#end-screen,
 #rc-anchor-container,
 #image-select {
     grid-area: 1 / 1;
@@ -41,4 +45,36 @@ body {
 #recaptcha-anchor-label {
     opacity: 1;
     transition: opacity 0.75s ease 0s;
+}
+
+#main-menu {
+    width: 640px;
+    height: 640px;
+    background-image: url("imgs/menu_title.jpg");
+}
+
+#game-back {
+    width: 640px;
+    height: 640px;
+    background-image: url("imgs/level.jpg");
+}
+
+#player-character {
+    width: 640px;
+    height: 640px;
+    background-image: url("imgs/player.png");
+}
+
+#end-screen {
+    width: 640px;
+    height: 640px;
+    background-image: url("imgs/win.jpg");
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+div:focus {
+    outline: none;
 }

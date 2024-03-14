@@ -9,8 +9,8 @@
     <script src="myscript.js"></script>
 </head>
 
-<body onload="on_load()">
-    <div id="game-canvas" style="width: 640px; height: 640px; ">
+<body onload="on_load(event)">
+    <div id="game-canvas" tabindex="0" style="width: 640px; height: 640px; ">
         <div id="rc-anchor-container" class="rc-anchor rc-anchor-normal rc-anchor-light" style="z-index: 0;">
             <div class="rc-anchor-content">
                 <div class="rc-inline-block">
@@ -201,13 +201,17 @@
                     <div class="rc-controls">
                         <div class="primary-controls">
                             <div class="verify-button-holder">
-                                <button class="rc-button-default goog-inline-block" id="recaptcha-verify-button" tabindex="0" onclick="next()">PLACEHOLDER</button>
+                                <button class="rc-button-default goog-inline-block" id="recaptcha-verify-button" onclick="next(event)">PLACEHOLDER</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="main-menu" class="hidden"></div>
+        <div id="game-back" class="hidden"></div>
+        <div id="player-character" class="hidden"></div>
+        <div id="end-screen" class="hidden"></div>
     </div>
 </body>
 

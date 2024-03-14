@@ -1,83 +1,83 @@
 const levels = [
-    {
-        not_a: "a robot",
-        instructions: "Select all squares with",
-        lookfor: "traffic lights",
-        path: "imgs/traffic_light.jpg",
-        mode: "MATCH",
-        error: "Please select all the matching images",
-        solution: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]
-    },
-    {
-        not_a: "a robot",
-        instructions: "Select all squares with",
-        lookfor: "bicycles",
-        path: "imgs/bike.jpg",
-        mode: "MATCH",
-        error: "Please select all the matching images",
-        solution: [[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 0, 0], [0, 0, 0, 0]]
-    },
-    {
-        not_a: "a dog",
-        instructions: "Select all squares with",
-        lookfor: "a red ball",
-        path: "imgs/ball.jpg",
-        mode: "MATCH",
-        error: "Please select all the matching images",
-        solution: [[0, 0, 0, 0], [0, 0, 1, 1], [0, 0, 2, 2], [0, 0, 0, 0]]
-    },
-    {
-        not_a: "a cat",
-        instructions: "Select all squares with",
-        lookfor: "prey",
-        path: "imgs/laser.jpg",
-        mode: "MATCH",
-        error: "Please select all the matching images",
-        solution: [[2, 2, 0, 2], [2, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
-    },
-    {
-        not_a: "guilty of murder",
-        instructions: "Select the square with",
-        lookfor: "your alibi",
-        path: "imgs/alibi.jpg",
-        mode: "SELECT ONE",
-        error: "Please select one",
-    },
-    {
-        not_a: "an infectious disease",
-        instructions: "Select all squares with",
-        lookfor: "friends",
-        path: "imgs/white_blood_cell.jpg",
-        mode: "MATCH",
-        error: "Please select all the matching images",
-        solution: [[2, 2, 2, 2], [1, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
-    },
-    {
-        not_a: "the one who killed her",
-        instructions: "",
-        lookfor: "Then who did it?",
-        path: "imgs/jimmy.jpg",
-        mode: "SELECT SOME",
-        error: "Who did it?",
-    },
-    {
-        not_a: "an artificial intelligence",
-        instructions: "Select all squares with",
-        lookfor: "blueberry muffins",
-        path: "imgs/chihuahua_muffin.jpg",
-        mode: "MATCH",
-        error: "Please select all the matching images",
-        solution: [[0, 0, 1, 0], [0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0]]
-    },
-    {
-        not_a: "going to jail, am I?",
-        instructions: "Select all squares containing",
-        lookfor: "Jimmy's girlfriend",
-        path: "imgs/dumpster.jpg",
-        mode: "MATCH",
-        error: "You know where she is",
-        solution: [[0, 0, 0, 0], [0, 0, 2, 2], [0, 0, 1, 1], [0, 0, 1, 1]]
-    },
+    // {
+    //     not_a: "a robot",
+    //     instructions: "Select all squares with",
+    //     lookfor: "traffic lights",
+    //     path: "imgs/traffic_light.jpg",
+    //     mode: "MATCH",
+    //     error: "Please select all the matching images",
+    //     solution: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]
+    // },
+    // {
+    //     not_a: "a robot",
+    //     instructions: "Select all squares with",
+    //     lookfor: "bicycles",
+    //     path: "imgs/bike.jpg",
+    //     mode: "MATCH",
+    //     error: "Please select all the matching images",
+    //     solution: [[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 0, 0], [0, 0, 0, 0]]
+    // },
+    // {
+    //     not_a: "a dog",
+    //     instructions: "Select all squares with",
+    //     lookfor: "a red ball",
+    //     path: "imgs/ball.jpg",
+    //     mode: "MATCH",
+    //     error: "Please select all the matching images",
+    //     solution: [[0, 0, 0, 0], [0, 0, 1, 1], [0, 0, 2, 2], [0, 0, 0, 0]]
+    // },
+    // {
+    //     not_a: "a cat",
+    //     instructions: "Select all squares with",
+    //     lookfor: "prey",
+    //     path: "imgs/laser.jpg",
+    //     mode: "MATCH",
+    //     error: "Please select all the matching images",
+    //     solution: [[2, 2, 0, 2], [2, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
+    // },
+    // {
+    //     not_a: "guilty of murder",
+    //     instructions: "Select the square with",
+    //     lookfor: "your alibi",
+    //     path: "imgs/alibi.jpg",
+    //     mode: "SELECT ONE",
+    //     error: "Please select one",
+    // },
+    // {
+    //     not_a: "an infectious disease",
+    //     instructions: "Select all squares with",
+    //     lookfor: "friends",
+    //     path: "imgs/white_blood_cell.jpg",
+    //     mode: "MATCH",
+    //     error: "Please select all the matching images",
+    //     solution: [[2, 2, 2, 2], [1, 2, 2, 2], [2, 2, 2, 2], [2, 2, 2, 2]]
+    // },
+    // {
+    //     not_a: "the one who killed her",
+    //     instructions: "",
+    //     lookfor: "Then who did it?",
+    //     path: "imgs/jimmy.jpg",
+    //     mode: "SELECT SOME",
+    //     error: "Who did it?",
+    // },
+    // {
+    //     not_a: "an artificial intelligence",
+    //     instructions: "Select all squares with",
+    //     lookfor: "blueberry muffins",
+    //     path: "imgs/chihuahua_muffin.jpg",
+    //     mode: "MATCH",
+    //     error: "Please select all the matching images",
+    //     solution: [[0, 0, 1, 0], [0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0]]
+    // },
+    // {
+    //     not_a: "going to jail, am I?",
+    //     instructions: "Select all squares containing",
+    //     lookfor: "Jimmy's girlfriend",
+    //     path: "imgs/dumpster.jpg",
+    //     mode: "MATCH",
+    //     error: "You know where she is",
+    //     solution: [[0, 0, 0, 0], [0, 0, 2, 2], [0, 0, 1, 1], [0, 0, 1, 1]]
+    // },
     {
         not_a: "a robot",
         instructions: "Select all squares with",
@@ -93,6 +93,8 @@ var current_level = 0
 var selected = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]];
 var checkmark_clicked = false;
 var n_selected = 0;
+var GAME_STATE = "CAPTCHA";
+var player_position = 110;
 
 // Animated elements
 var checkbox;
@@ -103,6 +105,15 @@ var image_select;
 var not_a_box;
 var next_button;
 
+// "game" elements
+var main_menu;
+var game_back;
+var player_character;
+var end_screen;
+var keyboard;
+
+var credits;
+
 // Animation metadata
 var checkbox_transition_frame;
 var spinner_start_time;
@@ -110,7 +121,10 @@ var checkmark_frame;
 
 
 
-function on_load() {
+function on_load(event) {
+    event.preventDefault();
+
+
     // Animated elements
     checkbox = document.getElementById('recaptcha-checkbox-border');
     checkbox_transition = document.getElementById('recaptcha-checkbox-borderAnimation');
@@ -119,6 +133,21 @@ function on_load() {
     image_select = document.getElementById('image-select');
     not_a_box = document.getElementById('recaptcha-anchor-label');
     next_button = document.getElementById('recaptcha-verify-button');
+
+    main_menu = document.getElementById('main-menu');
+    game_back = document.getElementById('game-back');
+    player_character = document.getElementById('player-character');
+    end_screen = document.getElementById('end-screen');
+    //TODO load the rest of the elements
+
+    keyboard = document.getElementById('game-canvas');
+
+    keyboard.addEventListener('keydown', manage_keydown);
+    keyboard.addEventListener('keyup', manage_keyup);
+
+    keyboard.onfocusout = function () { focus(keyboard) };
+
+    focus(keyboard);
 
     // CHECKBOX HOVER
     var checkbox_anchor = document.getElementById("recaptcha-anchor");
@@ -140,13 +169,74 @@ function on_load() {
     launch_level();
 }
 
+
+
+
+var key_pressed = "";
+
+
+
+function manage_keyup(event) {
+    if (GAME_STATE == "PLAYING") {
+        if (event.key == key_pressed) {
+            key_pressed = "";
+        }
+    }
+}
+
+function manage_keydown(event) {
+
+    if (GAME_STATE == "CAPTCHA") return;
+    if (GAME_STATE == "MAIN MENU" && event.key == "Enter") {
+        main_menu.classList.add('hidden');
+        game_back.classList.remove('hidden');
+        player_character.classList.remove('hidden');
+        GAME_STATE = "PLAYING";
+        requestAnimationFrame(player_move);
+    }
+    if (GAME_STATE == "PLAYING") {
+        key_pressed = event.key;
+    }
+
+}
+
+function player_move() {
+    if (key_pressed == "") { }
+    else if (key_pressed == "ArrowRight") {
+        if (player_position < 600)
+            player_position += 10;
+    }
+    else if (key_pressed == "ArrowLeft") {
+        if (player_position > 50)
+            player_position -= 10;
+    }
+    player_character.style = "background-position: " + (player_position - 110) + "px 0px;"
+
+    if (player_position > 535) {
+        GAME_STATE = "WIN"
+        game_back.classList.add('hidden');
+        player_character.classList.add('hidden');
+        end_screen.classList.remove('hidden');
+    }
+    else {
+        requestAnimationFrame(player_move);
+    }
+
+}
+
 function launch_level() {
     if (current_level < levels.length) {
         launch_image_select();
         launch_checkbox();
     }
     else {
+        // End captcha start game
 
+        focus(keyboard);
+        document.getElementById('game-canvas').addEventListener("click", () => {
+            focus(keyboard);
+        });
+        launch_checkmark_animation_in_and_wait();
     }
 }
 
@@ -166,7 +256,7 @@ async function launch_checkbox() {
             image_select.style = "visibility: visible; opacity: 1";
         }
         else {
-            launch_checkmark_animation_in_and_wait()
+            launch_checkmark_animation_in_and_wait();
         }
     }
 }
@@ -234,7 +324,9 @@ function error() {
 }
 
 /** NEXT button behaviour */
-function next() {
+function next(event) {
+    event.preventDefault();
+    if (GAME_STATE != "CAPTCHA") return;
     if (levels[current_level].mode == "SELECT ONE") {
         if (n_selected == 1) {
             next_level();
@@ -341,8 +433,17 @@ function checkmark_animation_in_and_wait(timestamp) {
         requestAnimationFrame(checkmark_animation_in_and_wait);
     }
     else {
-        launch_checkmark_animation_out();
-        not_a_box.style.opacity = 0;
+        if (current_level < levels.length) {
+            launch_checkmark_animation_out();
+            not_a_box.style.opacity = 0;
+        }
+        else {
+            image_select.classList.add('hidden');
+            main_menu.classList.remove('hidden');
+            document.getElementById('rc-anchor-container').classList.add('hidden');
+            GAME_STATE = "MAIN MENU";
+            focus(keyboard);
+        }
     }
 }
 
