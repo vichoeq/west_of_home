@@ -9,6 +9,6 @@ Join our protagonist Belmuth on an epic journey that will take him far from home
 
 Move: Arrow keys
 
-# WARNING
+# ⚠️ Warning ⚠️
 
-This repository contains spoilers of the game
+This repository contains spoilers of the game. If you are aware, you can see the credits [here](CREDITS.md)
