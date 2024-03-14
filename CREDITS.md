@@ -22,7 +22,8 @@ Used reCAPTCHA generated HTML and CSS under fair use
 |title                            |author              |URL                                                                                      |license              |modifications               |
 |---------------------------------|--------------------|-----------------------------------------------------------------------------------------|---------------------|----------------------------|
 |untitled                         | Vlad Fonsark       | https://www.pexels.com/photo/tram-riding-along-wet-city-street-near-modern-cars-4993460/| Pexels License      | Cropped and resized        |
-|untitled                         | Dom J              | https://www.pexels.com/photo/vehicle-between-buildings-308374/                          | Pexels License      |  Cropped and resized       |
+|untitled                         | Dom J              | https://www.pexels.com/photo/vehicle-between-buildings-308374/                          | Pexels License      | Cropped and resized        |
+|untitled                         | Pixabay            | https://www.pexels.com/photo/traffic-lights-46287/                                      | Pexels License      | Cropped and resized        |
 |untitled                         | ABrazzeal          | https://www.shutterstock.com/image-photo/bright-red-dog-ball-toy-green-1371550049       | Shutterstock License| Cropped and resized        |
 |Happy neutrophil.jpg             | Markgirton         | https://commons.wikimedia.org/wiki/File:Happy_neutrophil.jpg                            | CC BY 4.0           | Rotated cropped and resized|
 |Dumpster                         | Daniel Lobo        | https://www.flickr.com/photos/daquellamanera/5224889286                                 | CC BY 2.0           | Cropped and resized        |
