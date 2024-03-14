@@ -227,7 +227,7 @@ function player_move() {
 var credits_position = 0;
 function credits_roll() {
     end_screen.style = "background-position: 0px " + (credits_position--) + "px;";
-    if (credits_position == -1895) return;
+    if (credits_position == -2019) return;
     requestAnimationFrame(credits_roll);
 }
 

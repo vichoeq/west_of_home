@@ -2,8 +2,6 @@
 
 Made by @vichoeq for the 2024 Acerola Game Jam 0
 
-
-
 ## Tools used
 
 - vscode
